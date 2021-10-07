@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-clea install soa.version=12.2.1.4</actionName>
+            <displayName>clea install soa.version=12.2.1.4</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>install</goal>
+            </goals>
+            <properties>
+                <soa.version>12.2.1.4</soa.version>
+            </properties>
+        </action>
+        <action>
+            <actionName>CUSTOM-clean install soa-version=12.2.1.4</actionName>
+            <displayName>clean install soa-version=12.2.1.4</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>install</goal>
+            </goals>
+            <properties>
+                <soa-version>12.2.1.4</soa-version>
+            </properties>
+        </action>
+    </actions>

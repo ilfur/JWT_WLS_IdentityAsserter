@@ -1,0 +1,1 @@
+weblogic.management.security.JWTTOKENAUTHENTICATOR_1_0BeanInfoFactory
