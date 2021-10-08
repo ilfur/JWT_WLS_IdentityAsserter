@@ -19,6 +19,9 @@
     <security-role>
         <role-name>jwtAuthenticated</role-name>
     </security-role>
+    <security-role>
+        <role-name>Administrators</role-name>
+    </security-role>
     <security-constraint>
         <web-resource-collection>
             <web-resource-name>Everything</web-resource-name>

@@ -8,6 +8,10 @@
         <role-name>jwtAuthenticated</role-name>
         <principal-name>jwtAuthenticated</principal-name>
     </security-role-assignment>
+    <security-role-assignment>
+        <role-name>Administrators</role-name>
+        <principal-name>Administrators</principal-name>
+    </security-role-assignment>
   
 </weblogic-web-app>
 
