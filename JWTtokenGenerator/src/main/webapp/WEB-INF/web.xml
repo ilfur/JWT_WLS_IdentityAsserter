@@ -14,10 +14,15 @@
         <role-name>jwtAuthenticated</role-name>
     </security-role>
  
+    <login-config>
+        <auth-method>BASIC</auth-method>
+    </login-config>
+ 
     <security-constraint>
         <web-resource-collection>
             <web-resource-name>Protected resources</web-resource-name>
             <url-pattern>index.html</url-pattern>
+            <url-pattern>/resources/token/noGroups</url-pattern>
         </web-resource-collection>
         <auth-constraint>
             <role-name>jwtAuthenticated</role-name>
